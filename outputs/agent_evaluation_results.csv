@@ -1,0 +1,8 @@
+scenario_id,customer_id,customer_tier,lapse_probability,recommended_action
+S1,C0007,VIP / High-Spender,0.0,VIP CUSTOMER: Priority routing & offer proactive support resolution.
+S2,C0008,VIP / High-Spender,0.0,VIP CUSTOMER: Priority routing & offer proactive support resolution.
+S3,C0016,At-Risk / Inactive,0.09,STANDARD: Provide standard support assistance.
+S4,C0001,At-Risk / Inactive,0.03,STANDARD: Provide standard support assistance.
+S5,C0003,VIP / High-Spender,0.0,VIP CUSTOMER: Priority routing & offer proactive support resolution.
+S6,C0001,At-Risk / Inactive,0.03,STANDARD: Provide standard support assistance.
+S7,C0007,VIP / High-Spender,0.0,VIP CUSTOMER: Priority routing & offer proactive support resolution.
