@@ -1,0 +1,27 @@
+{
+  "run_id": "run_S6",
+  "scenario_id": "S6",
+  "messages": [
+    {
+      "role": "system",
+      "content": "AGENT: You are an automated refund assistant for Instamart."
+    },
+    {
+      "role": "user",
+      "content": "Scenario S6: Refund inquiry for non-existent order ORD-9999."
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "tool": "get_order",
+      "arguments": {
+        "order_id": "ORD-9999"
+      },
+      "observation": {
+        "error": "order not found"
+      }
+    }
+  ],
+  "tokens_used": 119
+}
